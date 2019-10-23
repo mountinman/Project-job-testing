@@ -1,7 +1,12 @@
-$bg-color: #333;
-$color: #fff;
+@import "breakpoints/_large";
+@import "breakpoints/_medium";
+@import "breakpoints/_small";
+@import "breakpoints/_extra-small";
 
-body {
-    background: $bg-color;
-    color:$color;
-}
+@import "layout/_basic";
+
+@import "variables/_colors";
+@import "variables/_breakpoints";
+@import "variables/_typography";
+
+
