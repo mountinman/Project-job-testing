@@ -1,13 +1,58 @@
 @media (min-width: 768px) {
+  .dropdown-content {
+    display: none;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 64px;
+    background: $menu-background;
+    text-align: end;
+    width: 250px;
+    right: 276px;
+    a {
+      padding: 10px 15px !important;
+      font-size: 16px !important;
+    }
+  }
+
   .hamburger-menu {
     display: none !important;
   }
 }
 @media (max-width: 768px) {
   .main-nav {
-    display: none !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: start !important;
+    align-items: center;
+    background: $menu-background;
+    position: absolute;
+    right: 0;
+    top: 65px;
+    width: 400px !important;
+    height: 100vh;
+    .dropdown-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .dropdown a {
+      text-align: center;
+    }
+    a:hover {
+      color: $main-color !important;
+      background: $menu-background !important;
+    }
   }
   .header {
     height: 65px;
+  }
+  .dropdown-content a {
+    padding: 10px !important;
+    font-size: 15px !important;
   }
 }

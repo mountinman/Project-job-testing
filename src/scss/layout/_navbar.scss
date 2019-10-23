@@ -33,22 +33,4 @@
     }
   }
 }
-.dropdown-content {
-  display: none;
-}
 
-.dropdown:hover .dropdown-content {
-  display: block;
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 64px;
-  background: $menu-background;
-  text-align: end;
-  width: 250px;
-  right: 276px;
-  a {
-    padding: 10px 15px !important;
-    font-size: 16px!important;
-  }
-}
