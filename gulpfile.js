@@ -77,6 +77,8 @@ gulp.task('serve', ['sass'], function() {
         server: "./src"  
     });
 
+    gulp.watch(['src/scss/features/*.scss'], ['sass']);
+    gulp.watch(['src/scss/breakpoints/*.scss'], ['sass']);
     gulp.watch(['src/scss/layout/*.scss'], ['sass']);
     gulp.watch("src/*.html").on('change', browserSync.reload);
 });

@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+  .hamburger-menu {
+    display: none !important;
+  }
+}
+@media (max-width: 768px) {
+  .main-nav {
+    display: none !important;
+  }
+  .header {
+    height: 65px;
+  }
+}
