@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: $main-color;
+
+  a {
+    text-decoration: none;
+  }
+}
+.main-nav {
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.dropdown-content {
+  display: none;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 40px;
+}

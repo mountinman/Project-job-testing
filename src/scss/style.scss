@@ -1,12 +1,15 @@
+@import "variables/_colors";
+@import "variables/_breakpoints";
+@import "variables/_typography";
+
 @import "breakpoints/_large";
 @import "breakpoints/_medium";
 @import "breakpoints/_small";
 @import "breakpoints/_extra-small";
 
 @import "layout/_basic";
+@import "layout/_navbar";
 
-@import "variables/_colors";
-@import "variables/_breakpoints";
-@import "variables/_typography";
+
 
 
