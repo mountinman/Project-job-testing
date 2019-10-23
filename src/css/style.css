@@ -44,7 +44,8 @@
     right: 0;
     top: 65px;
     width: 400px !important;
-    height: 100vh; }
+    height: 100vh;
+    visibility: hidden; }
     .main-nav .dropdown-content {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -65,12 +66,17 @@
     height: 65px; }
   .dropdown-content a {
     padding: 10px !important;
-    font-size: 15px !important; } }
+    font-size: 15px !important; }
+  .open {
+    visibility: visible !important; } }
 
 html, html * {
   font-family: Roboto;
   margin: 0;
   padding: 0; }
+
+body.sidebar-open {
+  overflow: hidden; }
 
 .header {
   display: -webkit-box;
