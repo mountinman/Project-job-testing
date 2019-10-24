@@ -3,11 +3,11 @@
   justify-content: space-between;
   background: $main-color;
 
-  .main-nav {
+  .header__main-nav {
     display: flex;
     width: 500px;
     justify-content: space-around;
-    .menu-item {
+    .header__main-nav-item {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -22,7 +22,7 @@
       }
     }
   }
-  .logo {
+  .header--logo {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,4 +33,3 @@
     }
   }
 }
-

@@ -1,6 +1,6 @@
 $(function() {
-    $('.hamburger-menu').click(function(){
-        $('.main-nav').toggleClass('open');
+    $('.header__hamburger-menu').click(function(){
+        $('.header__main-nav').toggleClass('open');
         $("body").toggleClass("sidebar-open");
     });
    

@@ -1,30 +1,5 @@
-@media (min-width: 768px) {
-  .dropdown-content {
-    display: none;
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 64px;
-    background: $menu-background;
-    text-align: end;
-    width: 250px;
-    right: 276px;
-    a {
-      padding: 10px 15px !important;
-      font-size: 16px !important;
-    }
-  }
-
-  .hamburger-menu {
-    display: none !important;
-  }
-}
-@media (max-width: 768px) {
-  .main-nav {
+@include md-max {
+  .header__main-nav {
     display: flex;
     flex-direction: column;
     justify-content: start !important;
@@ -36,12 +11,12 @@
     width: 400px !important;
     height: 100vh;
     visibility: hidden;
-    .dropdown-content {
+    .header__dropdown-content {
       display: flex;
       flex-direction: column;
       align-items: center;
     }
-    .dropdown a {
+    .header--dropdown a {
       text-align: center;
     }
     a:hover {
@@ -52,7 +27,7 @@
   .header {
     height: 65px;
   }
-  .dropdown-content a {
+  .header__dropdown-content a {
     padding: 10px !important;
     font-size: 15px !important;
   }

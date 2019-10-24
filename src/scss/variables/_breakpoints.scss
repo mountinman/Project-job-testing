@@ -1,12 +1,8 @@
-$breakpoints: (
-    'min-extra-small': (min-width: 490px),
-    'min-small': (min-width: 640px),
-    'min-small-1': (min-width: 641px),
-    'min-medium': (min-width: 768px),
-    'min-large': (min-width: 1024px),
+$min-small: 640px;
+$min-medium: 768px;
+$min-large: 1024px;
 
-    'max-extra-small': (max-width: 490px),
-    'max-small': (max-width: 640px),
-    'max-medium': (max-width: 768px),
-    'max-large' : (max-width: 1024px),
-);
+$max-small: 640px;
+$max-medium: 768px;
+$max-large: 1024px;
+

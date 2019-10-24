@@ -1,9 +1,12 @@
+@import "features/_mixin";
 
 @import "variables/_colors";
 @import "variables/_breakpoints";
 @import "variables/_typography";
 
-@import "breakpoints/_navbar";
+@import "breakpoints/_desktop";
+@import "breakpoints/_tablet";
+@import "breakpoints/_mobile";
 
 @import "layout/_basic";
 @import "layout/_navbar";
