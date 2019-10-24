@@ -29,17 +29,38 @@
         </ul>
       </header>
       <div class="header__hamburger-menu" onclick="myFunction(this)">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
+        <div class="header__hamburger-menu--bar1"></div>
+        <div class="header__hamburger-menu--bar2"></div>
+        <div class="header__hamburger-menu--bar3"></div>
+      </div>
+    </div>
+    <div class="slider">
+      <h1>Hello World</h1>
+      <ul class="slider__rslides">
+        <li class="slider__slide slider__slide--fade">
+          <img src="images/1.jpg" alt="" />
+        </li>
+        <li class="slider__slide slider__slide--fade">
+          <img src="images/2.jpg" alt="" />
+        </li>
+        <li class="slider__slide slider__slide--fade">
+          <img src="images/3.jpg" alt="" />
+        </li>
+      </ul>
+      <div class="slider__dot-container">
+        <span class="slider__dot"></span>
+        <span class="slider__dot"></span>
+        <span class="slider__dot"></span>
       </div>
     </div>
   </body>
+
   <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
     crossorigin="anonymous"
   ></script>
+  <script src="js/slider.js"></script>
   <script src="js/side-menu.js"></script>
   <script src="js/hamburger.js"></script>
 </html>
