@@ -1,0 +1,13 @@
+.btn-load-more__btn{
+    text-align: center;
+    margin: 80px 0;
+    button{
+        padding: 15px 60px!important;
+        border: none;
+        border-radius: 5px;
+        color: set-text-color($button-background);
+        font-size: 20px;
+        background: $button-background;
+        cursor: pointer;
+    }
+}

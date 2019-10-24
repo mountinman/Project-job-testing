@@ -1,0 +1,21 @@
+footer {
+  background: $footer-background;
+  height: 70px;
+  display: flex;
+  align-items: center;
+
+  p {
+    margin: 15px;
+    color: set-text-color($footer-background);
+    display: block;
+  }
+}
+
+.f-one {
+  flex: 1;
+}
+
+.f-two {
+  flex: 1;
+  text-align: right;
+}
