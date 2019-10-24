@@ -7,6 +7,36 @@ html, html * {
 body.sidebar-open {
   overflow: hidden;
 }
-.gray{
+.on-sidebar-open{
   opacity: 0.5;
 }
+.article-container{
+  display: flex;
+  width: 98%;
+  flex-wrap: wrap;
+  margin: 120px auto 10px auto;
+
+  h1{
+    color: set-text-color($body-background);
+    font-size: $heading-size;
+    line-height: $heading-spacing;
+    text-align: justify;
+  }
+
+  p{
+    color: set-text-color($body-background);
+    font-size: $paragraph-size;
+    line-height: $paragraph-spacing;
+    text-align: left !important;
+    
+  }
+
+  a{
+    color: $main-color;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: left !important;
+  }
+}
+

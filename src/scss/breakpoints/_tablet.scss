@@ -10,7 +10,7 @@
       position: absolute;
       right: 0;
       top: 65px;
-      width: 400px !important;
+      width: 400px ;
       height: 100vh;
       z-index: 99;
       visibility: hidden;
@@ -32,8 +32,15 @@
       }
     }
   }
-
   .open {
     visibility: visible !important;
+  }
+  .article-container__article {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 20px;
+    img {
+      width: 100%;
+    }
   }
 }

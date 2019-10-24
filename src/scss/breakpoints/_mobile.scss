@@ -1,2 +1,21 @@
 @include sm-max {
+  .article-container__article {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    img {
+      width: 100%;
+    }
+  }
+  .article-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    margin: 0px auto 10px auto!important;
+  }
+  .slider__dot-container {
+   display: none;
+}
+.header .header__main-nav {
+    width: 100vw!important;
+}
 }
